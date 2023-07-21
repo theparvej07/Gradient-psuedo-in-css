@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+        p:hover {
+            background-color: #eb0404;
+            color: aliceblue;
+        }
+        
+        .para::first-line {
+            color: blueviolet;
+        }
+        
+        .sudo::before {
+            content: "Parvej Ansari";
+            color: rgb(255, 0, 0);
+        }
+        
+        .sudo::after {
+            content: "Parvej Ansari";
+            color: rgb(255, 0, 0);
+        }
+        
+        .sudo::selection {
+            background-color: black;
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ipsam excepturi aspernatur perspiciatis obcaecati, beatae illum temporibus esse expedita nisi magnam corporis modi. Asperiores alias minus modi voluptas? Alias, commodi.</p>
+    <hr>
+    <div class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad velit voluptatem unde impedit optio molestiae error quis quibusdam suscipit quisquam non, iusto quasi exercitationem veritatis asperiores ducimus, incidunt dolores cumque.</div>
+    <hr>
+    <hr>
+    <div class="sudo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, tempora modi doloremque eaque distinctio repudiandae beatae minus, quis eos architecto error delectus consectetur, voluptate reiciendis praesentium? Minus debitis ex quos Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Officia necessitatibus amet sequi velit rerum, voluptatum impedit facilis corrupti nostrum quis minima qui doloremque dolorum enim error nemo quibusdam numquam hic. </div>
+
+</body>
+
+</html>
